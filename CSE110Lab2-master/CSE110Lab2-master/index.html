@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./css">
+	<link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <title>HTML PAGE!</title>
     </head>
     <body>
@@ -16,14 +19,26 @@
     <nav>
         <a href="https://www.youtube.com">YOUTUBE</a>
     </nav>
-    <h1>Header 1</h1>
+    <h1 id="main-head">Header 1</h1>
     <h2>Header 2</h2>
     <h3>Header 3</h3>
+    <h4 class="dont-show">Don't show me</h4>
     <section></section>
-    
-    
-    <div>
-        <span>This is part of a div, also span!</span>
+
+    <div class="flexing">
+      <p>flex 1</p>
+      <p>flex 2</p>
+      <p>flex 3</p>
+    </div>
+
+    <div class="gridding">
+      <p>grid 1</p>
+      <p>grid 2</p>
+      <p>grid 3</p>
+    </div>
+
+    <div class="changed-size">
+        <span class="colored">This is part of a div, also span!</span>
     </div>
 
     <hr>
@@ -72,10 +87,10 @@
         <textarea id="textBox" name="textBox" rows="4" cols="50">
         </textarea>
 
-        
+
     </fieldset>
     </form>
-        <input list="burgers" name="burgers" id="veggies"> 
+        <input list="burgers" name="burgers" id="veggies">
         <datalist id="burgers">
             <option value="In-n-Out">
             <option value="McDonalds">

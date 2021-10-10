@@ -1,0 +1,108 @@
+/* My CSS is amazing. */
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#main-head {
+  color: rgb(168, 201, 205);
+
+}
+h2{
+  color: #31c9cd;
+}
+
+h3{
+  color: hsl(352, 38%, 85%);
+  margin: 15pt 14pt 10pt 40pt;
+  padding: 10pt 10pt 10pt 10pt;
+  border-style:solid;
+  border-width:10pt;
+  border-radius:10%;
+  border-color: hsl(347, 36%, 70%);
+}
+
+.colored{
+  color: red;
+  background-color: blue;
+}
+
+.changed-size{
+  height: 20px;
+  width:20%;
+  right: 5vw;
+  left: 4rem;
+  background-color: orange;
+}
+
+li {
+  width: 100pt;
+  height: 0.225in;
+  background-color: pink;
+  margin-top: 18pt;
+  margin-bottom: 10pt;
+  margin-right: 10pt;
+  margin-left: 10pt;
+  padding-top:10pt;
+  padding-bottom: 10pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+
+p{
+  color: hsl(347, 36%, 70%);
+  text-decoration: overline;
+  text-align: left;
+  display: block;
+}
+
+.dont-show{
+  display: none;
+}
+
+a[href$=".com"]:hover {
+  color: yellow;
+}
+
+a[href$=".com"]:active{
+  color: green;
+}
+
+.flexing{
+  display:flex;
+  margin-right: 5pt;
+}
+
+.gridding{
+  display:grid;
+}
+
+div p {
+  background-color: pink
+}
+
+div > p {
+  background-color: yellow;
+}
+
+div + p {
+  background-color: red;
+}
+
+div ~ p {
+  background-color: gray;
+}
+
+div + > p {
+  background-color: red;
+}
+
+
+
+
+
+@media (min-width: 30em) and (orientation: landscape) {
+  *{
+    width:100%;
+  }
+}
